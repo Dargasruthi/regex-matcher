@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regex Matcher</title>
+
+    <!-- ✅ CSS Connection -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Regex Matcher Tool</h2>
+
+    <label>Test String:</label><br>
+    <textarea id="testString" rows="4" cols="50"
+        placeholder="Enter your test string here"></textarea>
+    <br><br>
+
+    <label>Regular Expression:</label><br>
+    <input type="text" id="regexPattern"
+        placeholder="Enter regex (example: \\d+)">
+    <br><br>
+
+    <!-- ✅ JavaScript Function Call -->
+    <button onclick="findMatches()">Submit</button>
+
+    <h3>Matches:</h3>
+    <ul id="result"></ul>
+
+    <!-- ✅ JavaScript Connection -->
+    <script src="script.js"></script>
+
+</body>
+</html>
